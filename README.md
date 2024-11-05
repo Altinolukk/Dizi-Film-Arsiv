@@ -1,4 +1,4 @@
-# Dizi-Film-Ar-iv
+# Dizi-Film-Arsiv
 Dizi ve Film Arşiv Yönetim Sitesi Veri Tabanı  
 
 235260022 Muhammet Altınoluk  
