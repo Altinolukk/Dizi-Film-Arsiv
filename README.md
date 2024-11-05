@@ -51,7 +51,8 @@ ID: Birincil anahtar.
 Name: Oyuncu adı.
 Birth_Date: Doğum tarihi.
 Nationality: Uyruğu.
-### 5. Yönetmen Tablosu (Directors)
+### 5. Yönetmen Tablosu (Directors)  
+
 ID: Birincil anahtar.
 Name: Yönetmen adı.
 Birth_Date: Doğum tarihi.
