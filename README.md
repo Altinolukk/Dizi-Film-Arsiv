@@ -8,7 +8,7 @@ Dizi ve Film Arşiv Yönetim Sitesi Veri Tabanı
 
 
       
-*#Genel Kullanıcı Gereksinimleri*  
+# *Genel Kullanıcı Gereksinimleri*  
 
 Kayıt ve Giriş İşlemleri: Kullanıcılar, siteye kayıt olabilmeli ve kullanıcı adı/e-posta ve şifre ile giriş yapabilmelidir.  
 Profil Güncelleme: Kullanıcılar, profil bilgilerini (örneğin kullanıcı adı, e-posta, şifre) güncelleyebilmelidir.  
