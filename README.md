@@ -8,7 +8,7 @@ Dizi ve Film Arşiv Yönetim Sitesi Veri Tabanı
 
 
       
-# DİZİ VE FİLM ARSİVİ GEREKSİNİMLERİ*
+# DİZİ VE FİLM ARSİVİ GEREKSİNİMLERİ
 ## Kullanıcı Gereksinimleri
 
 Kayıt ve Giriş İşlemleri: Kullanıcılar, siteye kayıt olabilmeli ve kullanıcı adı/e-posta ve şifre ile giriş yapabilmelidir.  
