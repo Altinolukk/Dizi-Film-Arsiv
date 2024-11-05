@@ -94,51 +94,6 @@ Country_ID: Ödülün verildiği ülkenin ID’si (yabancı anahtar)
 
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 9. Film ve Yönetmen İlişkisi Tablosu (Movie_Director_Relation)
-Movie_ID: Film veya dizinin ID’si (yabancı anahtar).
-Director_ID: Yönetmenin ID’si (yabancı anahtar).
-
-
-
-
-
-
-
-
-
 
 
 
