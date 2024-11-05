@@ -26,7 +26,54 @@ Dizi ve Film Arşiv Yönetim Sitesi Veri Tabanı
 *Oyuncu ve Yönetmen Yönetimi:* Yöneticiler, yeni oyuncu ve yönetmen ekleyip var olanların biyografi ve diğer bilgilerini güncelleyip silebilmelidir.  
 *Ödül Yönetimi:* Yöneticiler, ödül kategorileri ekleyebilmeli ve film/dizi ödüllerini güncelleyebilmelidir.  
 *Kullanıcı Yorum Yönetimi:* Yöneticiler, kullanıcıların yorumlarını inceleyebilmelidir ve gerektiğinde uygunsuz yorumları silebilmelidir.  
-*Sezon ve Bölüm Yönetimi:* Dizilere yeni sezon ve bölüm ekleyebilmelidir. Var olan sezon ve bölümlerin bilgilerini güncelleyebilmelidir.
+*Sezon ve Bölüm Yönetimi:* Dizilere yeni sezon ve bölüm ekleyebilmelidir. Var olan sezon ve bölümlerin bilgilerini güncelleyebilmelidir.  
+## Varlıklar ve Nitelikleri
+### 1 Film ve Dizi Tablosu (Movies & Series)
+ID: Birincil anahtar.
+Title: Film veya dizi adı.
+Release_Year: Çıkış yılı.
+Genre_ID: Türün ID’si (yabancı anahtar).
+Rating: Ortalama izleyici puanı.
+Description: Kısa açıklama.
+Duration: Süre (dizi ise bölüm sayısı da olabilir).
+### 2. Kategori Tablosu (Genres)
+ID: Birincil anahtar.
+Name: Tür adı.
+Description: Tür hakkında açıklama.
+### 3. Kullanıcı Tablosu (Users)
+User_ID: Birincil anahtar.
+Username: Kullanıcı adı.
+Password: Şifre.
+Email: E-posta adresi.
+Role: Kullanıcı türü (normal kullanıcı veya yönetici).
+### 4. Oyuncu Tablosu (Actors)
+ID: Birincil anahtar.
+Name: Oyuncu adı.
+Birth_Date: Doğum tarihi.
+Nationality: Uyruğu.
+### 5. Yönetmen Tablosu (Directors)
+ID: Birincil anahtar.
+Name: Yönetmen adı.
+Birth_Date: Doğum tarihi.
+Nationality: Uyruğu.
+### 6. Kullanıcı Yorum Tablosu (User_Reviews)
+Review_ID: Birincil anahtar.
+User_ID: Kullanıcının ID’si (yabancı anahtar).
+Movie_ID: Filmin ID’si (yabancı anahtar).
+Rating: Kullanıcının verdiği puan.
+Comment: Yorum içeriği.
+Date: Yorum tarihi.
+### 7. Favori Tablosu (User_Favorites)
+User_ID: Kullanıcının ID’si (yabancı anahtar).
+Movie_ID: Filmin ID’si (yabancı anahtar).
+Date_Added: Favorilere eklenme tarihi.
+### 8. Film ve Oyuncu İlişkisi Tablosu (Movie_Actor_Relation)
+Movie_ID: Film veya dizinin ID’si (yabancı anahtar).
+Actor_ID: Oyuncunun ID’si (yabancı anahtar).
+Role: Oyuncunun filmdeki rolü.
+### 9. Film ve Yönetmen İlişkisi Tablosu (Movie_Director_Relation)
+Movie_ID: Film veya dizinin ID’si (yabancı anahtar).
+Director_ID: Yönetmenin ID’si (yabancı anahtar).
 
 
 
