@@ -88,6 +88,8 @@ Year: Ödül yılı
 Country_ID: Ödülün verildiği ülkenin ID’si (yabancı anahtar)  
 
 
+    
+
 
 
 
