@@ -1,0 +1,8 @@
+
+CREATE TABLE Oduller (
+    Odul_ID INT PRIMARY KEY IDENTITY(1,1),
+    OdulAdi VARCHAR(100) NOT NULL,
+    OdulKategori VARCHAR(50) NOT NULL,
+    OdulYili INT,
+    FOREIGN KEY (Odul_ID) REFERENCES FilmlerDiziler(FilmDizi_ID) ON DELETE CASCADE
+);
